@@ -1,0 +1,33 @@
+{
+  "name": "backend-intro-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duenf33/backend-intro-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duenf33/backend-intro-test/issues"
+  },
+  "homepage": "https://github.com/duenf33/backend-intro-test#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^4.1.0",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.3.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "http-errors": "^1.8.0",
+    "mongoose": "^5.11.17",
+    "morgan": "^1.10.0",
+    "validator": "^13.5.2"
+  }
+}
